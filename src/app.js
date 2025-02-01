@@ -16,4 +16,4 @@ app.use(cors({
 app.use("/api/owners", ownerRoutes);
 app.use("/api/properties", propertyRoutes);
 
-module.exports = app;
+module.exports = app
